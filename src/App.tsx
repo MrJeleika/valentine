@@ -9,16 +9,16 @@ function App() {
         <h1 className="text-[70px] lg:text-[100px] font-semibold">Hey princess!</h1>
         <h1 className="text-[70px] lg:text-[100px]  font-semibold">Wanna be my Valentine?</h1>
         <div className="flex gap-10">
-          <button className="bg-white hover:bg-pink-800 !text-pink-800  hover:!text-white transition-all border-2 w-[80px]  border-pink-800  hover:border-pink-800 text-[24px] leading-none text-center focus:outline-none">
-            <NavLink to={'/no'} className="">
+          <NavLink to={'/no'} className="">
+            <button className="bg-white hover:bg-pink-800 !text-pink-800  hover:!text-white transition-all border-2 w-[80px]  border-pink-800  hover:border-pink-800 text-[24px] leading-none text-center focus:outline-none">
               No
-            </NavLink>
-          </button>
-          <button className="bg-white hover:bg-pink-800 !text-pink-800  hover:!text-white transition-all border-2 w-[80px]  border-pink-800  hover:border-pink-800 text-[24px] leading-none text-center focus:outline-none">
-            <NavLink to={'/yes'} className="">
+            </button>
+          </NavLink>
+          <NavLink to={'/yes'} className="">
+            <button className="bg-white hover:bg-pink-800 !text-pink-800  hover:!text-white transition-all border-2 w-[80px]  border-pink-800  hover:border-pink-800 text-[24px] leading-none text-center focus:outline-none">
               Yes
-            </NavLink>
-          </button>
+            </button>
+          </NavLink>
         </div>
       </div>
     </div>

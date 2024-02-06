@@ -30,11 +30,11 @@ export const No = () => {
           >
             No
           </button>
-          <button className="bg-white hover:bg-pink-800 !text-pink-800  hover:!text-white transition-all border-2 w-[80px]  border-pink-800  hover:border-pink-800 text-[24px] leading-none text-center focus:outline-none">
-            <NavLink to={'/yes'} className="">
+          <NavLink to={'/yes'} className="">
+            <button className="bg-white hover:bg-pink-800 !text-pink-800  hover:!text-white transition-all border-2 w-[80px]  border-pink-800  hover:border-pink-800 text-[24px] leading-none text-center focus:outline-none">
               Yes
-            </NavLink>
-          </button>
+            </button>
+          </NavLink>
         </div>
       </div>
     </div>
